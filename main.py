@@ -17,6 +17,7 @@ town = input("Enter your town: ")
 new_func(name, town)
 
 
+
 #print(dir(name))
 #print(dir(int))
 

@@ -90,3 +90,5 @@ to add images u need to write this
 ![hi this is my photo](photo file name-something.jpg)
 >>>>>>> images
 #added conflict resolving -->
+
+
