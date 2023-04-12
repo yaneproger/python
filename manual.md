@@ -67,28 +67,12 @@ To add numbered lists, we just need to ...
 #to  make a text bould, we need to leave in front and rear of it with double stars ** or underline symbool
 #Alternate meanings of text selection methods...:
 
-1
-1
-1
-1
+Заголовок первого уровня
+========================
+Заголовок второго уровня
+-------------------------
+Заголовки первого, третьего и шестого уровней, выполненные с помощью символа («#»), выглядят следующим образом:
 
-1
-
-
-
-
-12
-121231231231344
-<<<<<<< HEAD
-
-
-
-
-
-=======
-to add images u need to write this
-![hi this is my photo](photo file name-something.jpg)
->>>>>>> images
-#added conflict resolving -->
-
-
+#  Заголовок первого уровня
+### Заголовок третьего уровня
+###### Заголовок шестого уровня
