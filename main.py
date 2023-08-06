@@ -850,7 +850,7 @@ print(arraysecmax)
 # print('max index=', n_max, 'max value=', max)
 
 
-"""
+
 
 # n = [0, -1, 5, -2, 3]
 n = [0, -1, 5, 3]
@@ -891,3 +891,43 @@ print(n)
 # print_name = 10
 
 # print(print_name)
+
+
+
+
+# Here’s an echo server with the asyncio API:
+
+#!/usr/bin/env python
+
+
+
+
+from websockets.sync.client import connect
+import asyncio
+from websockets.server import serve
+async def echo(websocket):
+    async for message in websocket:
+        await websocket.send(message)
+
+
+async def main():
+    async with serve(echo, "localhost", 8765):
+        await asyncio.Future()  # run forever
+
+asyncio.run(main())
+
+# Here’s how a client sends and receives messages with the threading API:
+
+#!/usr/bin/env python
+
+
+# def hello():
+#     with connect("ws://localhost:8765") as websocket:
+#         websocket.send("Hello world!")
+#         message = websocket.recv()
+#         print(f"Received: {message}")
+
+
+# hello()
+
+"""
