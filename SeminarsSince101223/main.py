@@ -1,4 +1,6 @@
-"""
+
+
+
 """
 
 # import abc
@@ -9,6 +11,8 @@
 # town = input("Enter your town: ")
 # print(name,age,town)
 # print(name.find('a'))
+
+"""
 """
 def new_func(name, town):
     print(name.upper(),town)
@@ -18,10 +22,8 @@ town = input("Enter your town: ")
 new_func(name, town)
 
 
-
 #print(dir(name))
 #print(dir(int))
-
 
 
 import math
@@ -93,6 +95,8 @@ print(print(10+5))
 print(datetime.MAXYEAR)
 print(datetime.MINYEAR)
 """
+
+"""
 # print(import datetime)
 
 
@@ -111,6 +115,8 @@ print(datetime.MINYEAR)
 
 """
 
+
+"""
 
 def newfn(a, b, c):
     var = print(a/b/c)
@@ -242,6 +248,8 @@ while I <= 15:
     N = N+I
     I = I+2
 print(N)
+
+
 """
 """
 # calculate even numbers from entered to 15
@@ -260,19 +268,13 @@ else:
 print(s)
 """
 """
-number = int(input("enter number :"))
-
-if number % 2 == 0:
-
-    print(number, (' четное число'))
-else:
-    print(number, (' нечетное число'))
-
-    # else:
-
-#     print(number, ('четное число'))
 
 
+"""
+
+
+
+"""
 # min value from four number
 
 A = 1
@@ -418,7 +420,6 @@ print('max index=', n_max, 'max value=', max)
 """
 
 """
-
 # to reverse array
 numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 array_new = []
@@ -432,8 +433,8 @@ while index < size:
     # print(new_symbol)
 print(numbers)
 print(array_new)
-"""
 
+"""
 """
 # skalar product and array
 a = [1, 2, 3, 4, 5, 6, 7, 8, 9]
@@ -736,290 +737,160 @@ print('MaxElementsValue', count_maximal, 'ArraySize', len(numbers),
       'first_max_index', first_max_index, 'last_max_index', last_max_index)
 
 """
-"""
 
-# to reverse array
-numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-array_new = []
-index = 0
-size = len(numbers)
-new_symbol = 0
-while index < size:
-    print('new_symbol before action', new_symbol)
-    new_symbol = numbers[(len(numbers)-1)-index]
-    print('new_symbol after action', new_symbol)
-    array_new.append(new_symbol)
-    index = index+1
-    # print(new_symbol)
-print(numbers)
-print(array_new)
-"""
+
 
 """
 
-# to find indexes of max and min values
-# input(int(numbers=[]))
-numbers = [1, 20, 3, 45, 55, 2, 10]
-size = len(numbers)
-index = 0
-min = numbers[0]
-max = numbers[0]
-n_min = 0
-n_max = 0
-while index < size:
-    if numbers[index] < min:
-        min = numbers[index]
-        n_min = index
-    if numbers[index] > max:
-        max = numbers[index]
-        n_max = index
-    print(min)
-    print(max)
-    index = index+1
-print('min index=', n_min, 'min value=', min)
-print('max index=', n_max, 'max value=', max)
+
+
+
+
+
+# Алгебра логики(Булевская Алгебра) True(1) False(0)
+
+# конъюнкция(логическое умножение) - and
+# дизъюнкция(логическое сложение) - or
+# отрицание(обратное значение) - not
+
+# print(7 > 5 and 10 < 0)
+# #      1  *   0 = 0(False)
+
+# print(1 > 2 or 5 > -1)
+# #      0    +    1 = 1
+
+# print(3 > 2 or 5 > 2)
+# #      1    +    1 = 1
+
+# print((3 > 2 or 5 > 3) and 2 < 0)
+
+
+
+
+
+/*
+
+
+
+
+
+
+
+# #  Задача 1 За день машина проезжает n километров. Сколько
+#  # дней нужно, чтобы проехать маршрут длиной m
+# километров? При решении этой задачи нельзя
+# пользоваться условной инструкцией if и циклами.
+# Input:
+# n = 700
+# m = 750
+# Output:
+# 2
+
+# Задача 1
+
+# n = int(input("Сколько за день проезжает машина? - "))
+# m = int(input("Общее расстояние: "))
+# # 750 : 700 = 1(ост. 50) + 1
+# # 2100 : 700 = 3 (ост. 0) + 0
+# print((m + n - 1) //  n)
+# (m + n - 1) // n
+# (1401 + 700 - 1) // 700 = 3
+# print(-12 % 5) # 15 - 12 = 3
+# print(-14 % 6) # 18 - 14
+# print(-7 % 3) # 9 - 7
+
+
+
+
+
+
+
+*/
+
+
+
+
+
+
+
+
+# Задача №3. Общее обсуждение
+# В некоторой школе решили набрать три новых
+# математических класса и оборудовать кабинеты для
+# них новыми партами. За каждой партой может сидеть
+# два учащихся. Известно количество учащихся в
+# каждом из трех классов. Выведите наименьшее
+# число парт, которое нужно приобрести для них.
+# Input: 20 21 22(ввод чисел НЕ в одну строку)
+# Output: 32
+
+# a // 2 + a % 2 + b // 2 + b % 2 + c // 2 + c % 2
+
+
+
+
+
+# Вагоны в электричке пронумерованы натуральными числами, 
+# начиная с 1 (при этом иногда вагоны нумеруются от «головы» поезда, а иногда – с «хвоста»;
+#  это зависит от того, в какую сторону едет электричка). 
+#  В каждом вагоне написан его номер. Витя сел в i-й вагон от головы поезда и обнаружил, 
+#  что его вагон имеет номер j. Он хочет определить, сколько всего вагонов в электричке.
+#    Напишите программу, которая будет это делать или сообщать, 
+#    что без дополнительной информации это сделать невозможно. 
+
+#    j+i-1
+
+#    if j=i  это сделать невозможно. 
+
+
+
+
+
+#    Дано натуральное число. Требуется определить,
+# является ли год с данным номером високосным. Если
+# год является високосным, то выведите YES, иначе
+# выведите NO. Напомним, что в соответствии с
+# григорианским календарем, год является
+# високосным, если его номер кратен 4, но не кратен
+# 100, а также если он кратен 400.
+# Input: 2016
+# Output: YES
+
+
+# if (n%4&&n%400 ==0) 
+# else n%100 !=0
+
+
+# year = int(input("Введите год: "))
+# print(year % 4 == 0 and year % 100 != 0 or year % 400 == 0)
 
 
 """
-"""
 
-# to find summ of values excluding of max and min values
 
-numbers = [3, 5, 7, 1, 4, 5, 6, 7, 8, 9, 1, 5, 6, 7, 8, 11]
-size = len(numbers)
-index = 0
-i_min = 0
-i_max = 0
-min = numbers[0]
-max = numbers[0]
-old_max = 0
-tempsum = 0
-sum = 0
-arrayoldmax = []
-arrayoldmin = []
-array3 = []
-old_min = 0
-secmin = 0
-secmax = 0
-arraysecmin = []
-arraysecmax = []
+# n = int (input("Enter a number"))
+# print(    n%4==0 and n%400 ==0  or n%100 !=0        )
 
 
-for index in range(size):
-    #     print('min', min)
-    #     print('max', max)
-    # print('the value of the index', index, 'equals ', numbers[index])
-    if numbers[index] == min:
-        secmin = numbers[index]
-        arraysecmin.append(secmin)
-    if numbers[index] == max:
-        secmax = numbers[index]
-        arraysecmax.append(numbers[index])
 
-    if numbers[index] < min:
-        old_min = min
-        arrayoldmin.append(old_min)
-        min = numbers[index]
-        i_min = index
-        print('min is', min)
-    if numbers[index] > max:
-        old_max = max
-        print('old_max is', old_max)
-        arrayoldmax.append(old_max)
-        max = numbers[index]
-        i_max = index
-        print('max is', max)
-    if old_max > min and old_max < max:
-        # print('tempsum index equals', index)
-        # tempsum = tempsum+numbers[index]
-        array3.append(numbers[index])
-    print('min', min)
-    print('max', max)
-    # print('tempsum', tempsum)
-index = index+1
-sum = tempsum-max
-print('sum', sum)
-print(arrayoldmax)
-print(arrayoldmin)
-print(array3)
-print(arraysecmin)
-print(arraysecmax)
-# print(array_new2)
-# print('min index=', n_min, 'min value=', min)
-# print('max index=', n_max, 'max value=', max)
+# number = int(input("enter number :"))
 
+# if number % 2 == 0:
 
+#     print(number, (' четное число'))
+# else:
+#     print(number, (' нечетное число'))
 
+#     # else:
 
-# n = [0, -1, 5, -2, 3]
-n = [0, -1, 5, 3]
-print(n)
+# #     print(number, ('четное число'))
 
-left = 0  # index equals 0   - from where we will start
-right = len(n) - 1  # size of array minus 1 - where we will finish
-print('size-1 is', right)
 
-while left <= right:  # while 0 < or  equals  size of the array minus 1
-    for i in range(left, right, 1):  # for i variable in range  ->
-        #                               ->        from starting "left" - index - to "right" - end of the size
-        print('"i" in 1st for is', i)
-        if n[i] > n[i + 1]:  # if element with index - i - is more than element with index i+1
-            # do this line - reverse places of n[i],n[i+1], to n[i+1],n[i]
-            n[i], n[i + 1] = n[i + 1], n[i]
-    right -= 1   # count minus -1 from the end of the array - right -1
-    print('right', right)
 
-    # for i variable in range  from  end of the array "right" -size
-    # #             to  starting "left" - index, with step minus one element  " -1"
-    for i in range(right, left, -1):
-        print(' "i" in 2nd for is', i)
-        if n[i - 1] > n[i]:  # if element with index -1 - n[i-1] - is more than element with index n[i]
-            n[i], n[i - 1] = n[i - 1], n[i]  # do this line-
-            #   reverse elements n[i],and one element back  - n[i-1] to n[i-1], n[i]
-    left += 1  # count plus one element -(one index )from right end to the left
-    print('left', left)
 
-print(n)
-
-
-# def print_name(name):
-#     print('eldar')
-
-
-# print_name('name')
-# print_name = 10
-
-# print(print_name)
-
-
-
-
-# Here’s an echo server with the asyncio API:
-
-#!/usr/bin/env python
-
-
-
-
-from websockets.sync.client import connect
-import asyncio
-from websockets.server import serve
-async def echo(websocket):
-    async for message in websocket:
-        await websocket.send(message)
-
-
-async def main():
-    async with serve(echo, "localhost", 8765):
-        await asyncio.Future()  # run forever
-
-asyncio.run(main())
-
-# Here’s how a client sends and receives messages with the threading API:
-
-#!/usr/bin/env python
-
-
-# def hello():
-#     with connect("ws://localhost:8765") as websocket:
-#         websocket.send("Hello world!")
-#         message = websocket.recv()
-#         print(f"Received: {message}")
-
-
-# hello()
-
-
-
-
-
-За день машина проезжает n километров. Сколько
-дней нужно, чтобы проехать маршрут длиной m
-километров? При решении этой задачи нельзя
-пользоваться условной инструкцией if и циклами.
-Input:
-n = 700
-m = 750
-Output:
-2
-
-
-
-Задача №3. Общее обсуждение
-В некоторой школе решили набрать три новых
-математических класса и оборудовать кабинеты для
-них новыми партами. За каждой партой может сидеть
-два учащихся. Известно количество учащихся в
-каждом из трех классов. Выведите наименьшее
-число парт, которое нужно приобрести для них.
-Input: 20 21 22(ввод чисел НЕ в одну строку)
-Output: 32
-
-a // 2 + a % 2 + b // 2 + b % 2 + c // 2 + c % 2
-
-
-
-
-
-Вагоны в электричке пронумерованы натуральными числами, 
-начиная с 1 (при этом иногда вагоны нумеруются от «головы» поезда, а иногда – с «хвоста»;
- это зависит от того, в какую сторону едет электричка). 
- В каждом вагоне написан его номер. Витя сел в i-й вагон от головы поезда и обнаружил, 
- что его вагон имеет номер j. Он хочет определить, сколько всего вагонов в электричке.
-   Напишите программу, которая будет это делать или сообщать, 
-   что без дополнительной информации это сделать невозможно. 
-
-   j+i-1
-
-   if j=i  это сделать невозможно. 
-
-
-
-
-
-   Дано натуральное число. Требуется определить,
-является ли год с данным номером високосным. Если
-год является високосным, то выведите YES, иначе
-выведите NO. Напомним, что в соответствии с
-григорианским календарем, год является
-високосным, если его номер кратен 4, но не кратен
-100, а также если он кратен 400.
-Input: 2016
-Output: YES
-
-
-if (n%4&&n%400 ==0) 
-else n%100 !=0
-
-
-year = int(input("Введите год: "))
-print(year % 4 == 0 and year % 100 != 0 or year % 400 == 0)
-
-
-"""
-"""
-"""
-
-n = int (input("Enter a number"))
-print(    n%4==0 and n%400 ==0  or n%100 !=0        )
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+print(-12 % 5) # 15 - 12 = 3
+print(-14 % 6) # 18 - 14
+print(-7 % 3) # 9 - 7
 
 
 
