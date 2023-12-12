@@ -743,3 +743,9 @@ print('MaxElementsValue', count_maximal, 'ArraySize', len(numbers),
 
 
 
+
+
+
+
+
+
