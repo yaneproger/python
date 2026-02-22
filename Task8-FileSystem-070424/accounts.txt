@@ -1,0 +1,10 @@
+1;Annuwka;Annova;Annovna;9799111;Anapa
+2;Oleg;Olegov;Olegovich;5952222;moscow
+3;Ivanushka;Ivanov;Ivanovi4;23232333;Ivanovo
+4;Amir;Amirov;Amirovi4;21854444;Baku
+5;Miri;Miriev;Mirievich;656161555;Barselona
+6;Nava;Navaev;Navaevi4;6816816666;Navaiw
+7;Amil;Amilov;Amilovich;11813131351777;Baki
+8;Nata;Nataeva;Nataevna;84846888;Jibuti
+9;Shirazi;Shiraziyevich;Shirazi;98498999;Telaviv
+10;Ilqar;Ilqarovich;Ilqar;181313151110;Ganca
